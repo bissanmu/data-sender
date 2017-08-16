@@ -12,6 +12,8 @@
 		904BC2E11F43E51400229A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904BC2DF1F43E51400229A68 /* Main.storyboard */; };
 		904BC2E31F43E51400229A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904BC2E21F43E51400229A68 /* Assets.xcassets */; };
 		904BC2E61F43E51400229A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904BC2E41F43E51400229A68 /* LaunchScreen.storyboard */; };
+		904BC2EE1F43E53800229A68 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BC2ED1F43E53800229A68 /* OneViewController.swift */; };
+		904BC2F01F43E54100229A68 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BC2EF1F43E54100229A68 /* TwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		904BC2E21F43E51400229A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904BC2E51F43E51400229A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904BC2E71F43E51400229A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904BC2ED1F43E53800229A68 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		904BC2EF1F43E54100229A68 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				904BC2E21F43E51400229A68 /* Assets.xcassets */,
 				904BC2E41F43E51400229A68 /* LaunchScreen.storyboard */,
 				904BC2E71F43E51400229A68 /* Info.plist */,
+				904BC2ED1F43E53800229A68 /* OneViewController.swift */,
+				904BC2EF1F43E54100229A68 /* TwoViewController.swift */,
 			);
 			path = DataSender2;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904BC2EE1F43E53800229A68 /* OneViewController.swift in Sources */,
 				904BC2DE1F43E51400229A68 /* ViewController.swift in Sources */,
 				904BC2DC1F43E51400229A68 /* AppDelegate.swift in Sources */,
+				904BC2F01F43E54100229A68 /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
